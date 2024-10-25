@@ -1,11 +1,13 @@
 import React from "react";
-function Header(){
+import { GiHamburgerMenu } from "react-icons/gi";
+function Header({ setShowNav, showNav }){
     return (
-        <header class="barra">
+        <header class="barra">          
         <div class="contbarra">
-        {/* <img src="img/logo.png" alt="Logo" class="logo"/> */}
-            <h1>Header:)</h1>
-           
+            
+        <GiHamburgerMenu onClick={() => setShowNav(!showNav)} /> {/* Al hacer clic, alterna el estado */}
+
+        {/* <GiHamburgerMenu/>   */}
         </div>
     </header>
     )
