@@ -3,6 +3,8 @@ import './App.css';
 import Header from '../src/componentes/layout/header';
 import Navigation from './componentes/layout/Navigation';
 import Principal from './componentes/estadistica/principal';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
