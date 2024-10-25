@@ -5,12 +5,12 @@ import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement
 // Registrar componentes de Chart.js
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend, ArcElement);
 
-function EventosPrincipal() {
+function EventosGeneral() {
     // Datos para el gráfico de líneas
     const lineChartData = {
         labels: ['Ene', 'Feb', 'Mar', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
         datasets: [{
-            label: 'número de eventos',
+            label: '2024',
             data: [12, 19, 3, 5, 2, 3, 2, 20, 15, 5, 6, 26],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
@@ -66,7 +66,7 @@ function EventosPrincipal() {
             <div className='charts'>
                 {/* Gráfico de líneas */}
                 <div className="chart">
-                    <h2>Eventos durante el mes</h2>
+                    <h2>Eventos durante el año</h2>
                     <Line data={lineChartData} options={options} />
                 </div>
 
@@ -81,8 +81,8 @@ function EventosPrincipal() {
             <div className='cards'>
                 <div className='card'>
                     <div className='card-content'>
-                        <div className='number'>1</div>
-                        <div className='card-name'>Estudihambres</div>
+                        <div className='number'>150</div>
+                        <div className='card-name'>Evento Halloween</div>
                     </div>
                     <div className='icon-box'>
                         <i className='fas fa-user-graduate'></i>
@@ -90,8 +90,8 @@ function EventosPrincipal() {
                 </div>
                 <div className='card'>
                     <div className='card-content'>
-                        <div className='number'>1</div>
-                        <div className='card-name'>Doicente</div>
+                        <div className='number'>202</div>
+                        <div className='card-name'>Conferencia Salud</div>
                     </div>
                     <div className='icon-box'>
                         <i className='fas fa-chalkboard-teacher'></i>
@@ -99,8 +99,8 @@ function EventosPrincipal() {
                 </div>
                 <div className='card'>
                     <div className='card-content'>
-                        <div className='number'>1</div>
-                        <div className='card-name'>Estudihambres</div>
+                        <div className='number'>156</div>
+                        <div className='card-name'>Conferencia Ponentes</div>
                     </div>
                     <div className='icon-box'>
                         <i className='fas fa-user'></i>
@@ -108,8 +108,8 @@ function EventosPrincipal() {
                 </div>
                 <div className='card'>
                     <div className='card-content'>
-                        <div className='number'>1</div>
-                        <div className='card-name'>Estudihambres</div>
+                        <div className='number'>84</div>
+                        <div className='card-name'>Conferencia Marketing</div>
                     </div>
                     <div className='icon-box'>
                         <i className='fas fa-dollar-sign'></i>
@@ -120,4 +120,6 @@ function EventosPrincipal() {
     );
 }
 
-export default EventosPrincipal;
+export default EventosGeneral;
+
+
