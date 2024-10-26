@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 function Navigation({showNav }){
 return( 
+    
     <aside className={`sidebar col-3 ${showNav ? 'active' : ''}`}> {/* Clase condicional */}
 
 {/* <aside class="sidebar col-3"> */}

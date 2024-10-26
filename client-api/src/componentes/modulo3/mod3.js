@@ -21,6 +21,7 @@ function MyDropdown() {
         </Form.Text>     
       </Form>
 
+
      {/* Formulario de texto */}
      <Form>
         <Form.Group controlId="inputText">
