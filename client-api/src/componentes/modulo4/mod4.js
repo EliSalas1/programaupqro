@@ -30,7 +30,7 @@ function Myformularioedit() {
             aria-describedby="textHelpBlock"
         />   
         <Form.Text id="textHelpBlock" muted>
-         Por favor ingrese su nombre.
+         Por favor ingrese el nombre del evento.
         </Form.Text>  
         </div>  
 
@@ -38,14 +38,14 @@ function Myformularioedit() {
 
         <div className="mt-5"> 
         <Form.Group controlId="inputText">
-          <Form.Label htmlFor="inputText" className="text-start w-100">Fecha y Hora de inicio del evento</Form.Label>
+          <Form.Label htmlFor="inputText" className="text-start w-100">Fecha y hora de inicio del evento</Form.Label>
           <Form.Control
             type="datetime-local"
             id="inputDatetime"
             aria-describedby="datetimeHelpBlock"
           />
           <Form.Text id="datetimeHelpBlock" muted>
-            Por favor ingrese su nombre.
+            Por favor ingrese fecha y hora de inicio del evento.
           </Form.Text>
         </Form.Group>
         </div>
@@ -54,14 +54,14 @@ function Myformularioedit() {
 
          <div className="mt-5"> 
         <Form.Group controlId="inputText">
-          <Form.Label htmlFor="inputText" className="text-start w-100">Fecha y Hora de finalización del evento</Form.Label>
+          <Form.Label htmlFor="inputText" className="text-start w-100">Fecha y hora de finalización del evento</Form.Label>
           <Form.Control
             type="datetime-local"
             id="inputDatetime"
             aria-describedby="datetimeHelpBlock"
           />
           <Form.Text id="datetimeHelpBlock" muted>
-            Por favor ingrese su nombre.
+            Por favor ingrese fecha y hora de finalización del evento.
           </Form.Text>
         </Form.Group>
         </div>
@@ -92,7 +92,7 @@ function Myformularioedit() {
           aria-describedby="textHelpBlock"
         />   
         <Form.Text id="textHelpBlock" muted>
-         Por favor ingrese su nombre.
+         Por favor ingrese el nombre del ponente.
         </Form.Text>
       </div>
 
@@ -188,7 +188,7 @@ function Myformularioedit() {
           aria-describedby="textHelpBlock"
         />   
         <Form.Text id="textHelpBlock" muted>
-         Por favor ingrese su nombre.
+         Por favor ingrese el nombre del organizador.
         </Form.Text> 
     </div>
 
@@ -202,7 +202,7 @@ function Myformularioedit() {
           aria-describedby="textHelpBlock"
         />   
         <Form.Text id="textHelpBlock" muted>
-         Por favor ingrese su cargo.
+         Por favor ingrese el cargo del organizador.
         </Form.Text> 
       </div>    
 
